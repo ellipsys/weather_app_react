@@ -24,9 +24,9 @@ const Show = ({data}) => {
                <div>
                  <ul>
                     <li>{data.description}</li>
-                    <li>Wind Speed {data.speed} m/s</li>
-                    <li>Clouds {data.clouds}%</li>
-                    <li>Preasure {data.pressure}hPa</li>
+                    <li><i class="fa-solid fa-wind"></i>Wind Speed {data.speed} m/s</li>
+                    <li><i class="fa-solid fa-temperature-quarter"></i>Preasure {data.pressure}hPa</li>
+                    <li><i class="fa-solid fa-cloud-sun-rain"></i>Clouds {data.clouds}%</li>
 
                 </ul>
                </div>

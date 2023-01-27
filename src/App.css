@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 h2 {
     text-align: center;
@@ -14,14 +15,9 @@ button {
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     font-size: 1rem;
-    background-color: #64ffda;;
+    background-color: #64ffda;
 }
-button:hover{
-    background-color: #F30067;
-    color: white;
-    border: none;
-    
-}
+
 img {
     width: 200px;
     height: 200px;
@@ -61,5 +57,17 @@ li {
     align-items: center;
     justify-content: center
 
+
+}
+.fa-solid {
+    font-size: 1.2rem;
+    color: #F30067;
+    padding-right: 1rem;
+}
+
+button:hover  {
+    background-color: #F30067;
+    color: white;
+    border: none;
 
 }
