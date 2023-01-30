@@ -16,6 +16,7 @@ button {
     border-radius: 0.5rem;
     font-size: 1rem;
     background-color: #64ffda;
+    cursor: pointer;
 }
 
 img {
@@ -69,5 +70,7 @@ button:hover  {
     background-color: #F30067;
     color: white;
     border: none;
+    scale: 1.2;
+    transition: scale 0.5s;
 
 }
