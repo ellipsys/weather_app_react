@@ -24,7 +24,7 @@ function App() {
 
     useEffect(()=>{
         if(coords){
-            const APIKEY = "d993d119ca66d0a611399e0a7acadf4e";
+            const APIKEY = "58a91f9d4401ceada0aa1218326e159d";
             const url = `https://api.openweathermap.org/data/2.5/weather?lat=${coords.lat}&lon=${coords.lon}&appid=${APIKEY}`
             console.log(url);
             axios.get(url)
